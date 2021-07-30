@@ -25,7 +25,7 @@ class Planet():
             y1 = int(math.sin(self.degree * 2 * math.pi/360) * self.y_radius) + height/2
             pygame.draw.circle(window, self.color, (x1, y1), self.radius)
             if self.rings == True:
-                pygame.draw.line(window, white,(x1 - 40, y1),(x1 + 40, y1) ,3)
+                pygame.draw.line(window, grey,(x1 - 40, y1),(x1 + 40, y1) ,3)
 
     def draw_orbit(self):
             pygame.draw.ellipse(window, white, [width/2 - self.x_radius,height/2-self.y_radius,2*(self.x_radius),2*(self.y_radius)] ,1)
