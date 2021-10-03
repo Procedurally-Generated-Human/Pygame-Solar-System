@@ -1,6 +1,6 @@
 An animated map of the solar system! feel free to mess around with the planet size, speed, orbits and more.
 
-Note: The relative size of the planets and orbits are not similar to real life.
+Note: The relative size of the planets and orbits are not to scale.
 
 -----------------------
 
